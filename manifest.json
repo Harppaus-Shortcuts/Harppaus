@@ -1,0 +1,16 @@
+{
+  "name": "Harppaus",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Shortcuts in a Flash Using Leap Motion!",
+
+  "background": {
+    "scripts": ["leap.js","main.js"],
+    "persistent": false
+  },
+
+  "permissions": ["<all_urls>","tabs","desktopCapture"],
+  "browser_action": {
+    "default_title": "Harppaus"
+  }
+}
